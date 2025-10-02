@@ -6,7 +6,6 @@ export default function LoginPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode colocar sua lógica de autenticação
     console.log("Email:", email);
     console.log("Senha:", password);
   };
@@ -18,7 +17,7 @@ export default function LoginPage() {
           Login
         </h2>
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Campo Email */}
+          {/* Email */}
           <div>
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Email
@@ -33,7 +32,7 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Campo Senha */}
+          {/* Senha */}
           <div>
             <label className="block mb-2 text-sm font-medium text-gray-700">
               Senha
@@ -48,7 +47,7 @@ export default function LoginPage() {
             />
           </div>
 
-          {/* Botão Entrar */}
+          {/* Entrar */}
           <button
             type="submit"
             className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition"

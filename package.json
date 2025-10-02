@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "projeto-react",
   "private": true,
   "version": "0.0.0",
@@ -23,5 +24,12 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.4.0",
     "vite": "^7.1.7"
+=======
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "react-hook-form": "^7.63.0",
+    "react-router-dom": "^7.9.3",
+    "tailwindcss": "^4.1.13"
+>>>>>>> cb4bebe796f16920a7519c3b3eaec6c5243ef3ed
   }
 }
